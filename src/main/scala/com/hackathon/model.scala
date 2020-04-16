@@ -1,4 +1,4 @@
-package com.talend
+package com.hackathon
 
 object model {
 

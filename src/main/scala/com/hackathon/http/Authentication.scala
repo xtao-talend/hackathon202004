@@ -1,10 +1,10 @@
-package com.talend.http
+package com.hackathon.http
 
 import cats.implicits._
 import cats.data.{Kleisli, OptionT}
 import cats.effect.IO
-import com.talend.model.User
-import com.talend.repository.UserRepository
+import com.hackathon.model.User
+import com.hackathon.repository.UserRepository
 import org.http4s.{Header, Request}
 import org.http4s.server.AuthMiddleware
 import org.http4s.util.CaseInsensitiveString

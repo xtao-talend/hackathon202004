@@ -1,4 +1,4 @@
-package com.talend
+package com.hackathon
 
 import pureconfig.ConfigReader
 import pureconfig.generic.semiauto._

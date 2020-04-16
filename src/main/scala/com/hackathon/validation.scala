@@ -1,9 +1,9 @@
-package com.talend
+package com.hackathon
 
 import cats.data.ValidatedNel
 import cats.syntax.apply._
 import cats.syntax.validated._
-import com.talend.model._
+import com.hackathon.model._
 
 object validation {
 

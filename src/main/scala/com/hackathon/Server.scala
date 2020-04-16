@@ -1,9 +1,9 @@
-package com.talend
+package com.hackathon
 
 import cats.effect.{ExitCode, IO, IOApp}
 import cats.syntax.functor._
-import com.talend.config.Config
-import com.talend.http.HttpServer
+import com.hackathon.config.Config
+import com.hackathon.http.HttpServer
 import org.flywaydb.core.Flyway
 import pureconfig.ConfigSource
 

@@ -1,10 +1,10 @@
-package com.talend.http
+package com.hackathon.http
 
 import cats.effect._
 import cats.syntax.all._
-import com.talend.model._
-import com.talend.repository.UserRepository
-import com.talend.validation.UserValidation
+import com.hackathon.model._
+import com.hackathon.repository.UserRepository
+import com.hackathon.validation.UserValidation
 import org.http4s.circe.CirceEntityCodec._
 import io.circe.generic.auto._
 import org.http4s._

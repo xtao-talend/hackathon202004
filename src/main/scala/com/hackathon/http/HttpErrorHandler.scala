@@ -1,9 +1,9 @@
-package com.talend.http
+package com.hackathon.http
 
 import cats.Monad
 import org.http4s.Response
 import org.http4s.dsl.Http4sDsl
-import com.talend.model.{ApiError, UserNotFound}
+import com.hackathon.model.{ApiError, UserNotFound}
 
 class HttpErrorHandler[F[_]: Monad] extends Http4sDsl[F] {
 

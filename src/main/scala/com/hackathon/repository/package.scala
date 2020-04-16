@@ -1,4 +1,4 @@
-package com.talend
+package com.hackathon
 
 import doobie.quill.DoobieContext
 import io.getquill.SnakeCase

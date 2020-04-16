@@ -1,7 +1,7 @@
-package com.talend.repository
+package com.hackathon.repository
 
 import cats.effect.IO
-import com.talend.model._
+import com.hackathon.model._
 import doobie.util.transactor.Transactor
 
 class UserRepository(transactor: Transactor[IO]) {

@@ -1,4 +1,4 @@
-package com.talend.http
+package com.hackathon.http
 
 import cats.effect.IO
 import org.http4s.HttpRoutes

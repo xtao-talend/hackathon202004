@@ -1,12 +1,12 @@
-package com.talend.http
+package com.hackathon.http
 
 import cats.implicits._
 import cats.data.ReaderT
 import cats.effect.{Blocker, ContextShift, IO, Resource, Timer}
-import com.talend.catsHttpTypes.ConfiguredResource
-import com.talend.config.{Config, ServerConfig}
-import com.talend.model
-import com.talend.repository.UserRepository
+import com.hackathon.catsHttpTypes.ConfiguredResource
+import com.hackathon.config.{Config, ServerConfig}
+import com.hackathon.model
+import com.hackathon.repository.UserRepository
 import doobie.hikari.HikariTransactor
 import doobie.util.ExecutionContexts
 import org.http4s.server.{AuthMiddleware, Server}

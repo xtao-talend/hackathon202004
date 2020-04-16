@@ -4,12 +4,11 @@ HACKATHON 2020
 Typelevel Stack QuickStart
 --------------------------
 
-1. Install [sbt][sbt]
+1. Install sbt
 2. `cd hackatonxtao042020`
-3. Install [PostgreSQL][postgresql] and configure access for user `postgres` and password `postgres` (or change it in `Module`)
+3. Install PostgreSQL and configure access for user `postgres` and password `postgres` (or change it in `Module`)
 4. Create database `hackathonxtao` and table `users` (see `src/main/resources/V1_Create_User_Table.sql` or use `Flyway` as in the tests).
 5. `sbt run`
-6. `curl http://localhost:8080/users/USERNAME`
 
 About structure
 --------------
